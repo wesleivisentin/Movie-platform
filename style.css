@@ -1,8 +1,14 @@
 body{
     font-family: "Open Sans", sans-serif;
     padding-top: 120px;
+    background-color: #1c1c1c;
 }
 
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /*centralizar itens de bloco*/
+}
 header{
     background-color: #e6e6e6 ;
     width: 100%;
@@ -10,6 +16,9 @@ header{
     padding: 25px;
     position: fixed;
     top: 0;
+}
+header .container {
+    display: flex;
 }
 
 header figure {
@@ -50,7 +59,64 @@ header nav ul li a{
 
 }
 
+section p{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
 
-main{
-    background-color: rgb(231, 231, 86);
+section ul.secaoCategorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 50px;
+}
+
+section ul.secaoCategorias li{
+
+}
+section ul.secaoCategorias li a{
+    color: #fff;
+    background-color: #2f2f2f;
+    display: block;
+    width: 130px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+section ul.listaFilme{
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+}
+
+
+section ul.listaFilme li{
+    max-width: 185px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+section ul.listaFilme li figure{}
+
+section ul.listaFilme li figure img{
+    width: 100%;
+}
+
+section ul.listaFilme li h2{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden; /*esconder o texto que passar da largura*/
+    white-space: nowrap; /*não deixa quebrar a linha */
+    text-overflow: ellipsis; /*deixa os "..."ao  invez de só parar o texto*/
+
 }
