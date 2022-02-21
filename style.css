@@ -1,9 +1,15 @@
 body{
-
+    font-family: "Open Sans", sans-serif;
+    padding-top: 120px;
 }
 
 header{
     background-color: #e6e6e6 ;
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    position: fixed;
+    top: 0;
 }
 
 header figure {
@@ -21,6 +27,29 @@ header figure figcaption {
     font-weight: bold;
     font-size: 25px;
 }
+
+
+/* MENU */
+header nav{
+    width: 300px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header nav  ul li  {}
+
+header nav ul li a{
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
 
 main{
     background-color: rgb(231, 231, 86);
