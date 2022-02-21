@@ -1,10 +1,27 @@
-*{
-    
+body{
+
 }
 
 header{
-    background-color: rgb(109, 183, 212);
+    background-color: #e6e6e6 ;
 }
+
+header figure {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+header figure img {
+
+}
+
+header figure figcaption {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 main{
     background-color: rgb(231, 231, 86);
 }
