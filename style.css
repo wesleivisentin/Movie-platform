@@ -27,9 +27,7 @@ header figure {
     align-items: center;
 }
 
-header figure img {
-
-}
+/*header figure img {} */
 
 header figure figcaption {
     text-transform: uppercase;
@@ -50,7 +48,7 @@ header nav ul {
     height: 100%;
 }
 
-header nav  ul li  {}
+/* header nav  ul li  {} */
 
 header nav ul li a{
     color: #1c1c1c;
@@ -76,9 +74,7 @@ section ul.secaoCategorias {
     margin: 50px 0 50px;
 }
 
-section ul.secaoCategorias li{
-
-}
+/*section ul.secaoCategorias li{}  */
 section ul.secaoCategorias li a{
     color: #fff;
     background-color: #2f2f2f;
@@ -104,7 +100,7 @@ section ul.listaFilme li{
     margin-bottom: 50px;
 }
 
-section ul.listaFilme li figure{}
+/*section ul.listaFilme li figure{}*/
 
 section ul.listaFilme li figure img{
     width: 100%;
